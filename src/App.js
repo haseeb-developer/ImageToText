@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import "./components/ImageToText.css";
 import ImageToText from "./components/ImageToText";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <main>
         <ImageToText />
+        <Analytics />
       </main>
     </div>
   );
