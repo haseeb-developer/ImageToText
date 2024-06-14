@@ -17,8 +17,11 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  background-image: url(https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
 }
 
 .container {
@@ -32,17 +35,22 @@ body {
 .section {
   width: 100%;
   text-align: left;
-  background: #fff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .section h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #3a3a3a;
+  color: #fff;
 }
 
 .image {
@@ -101,8 +109,15 @@ body {
   height: 300px;
   padding: 10px;
   box-sizing: border-box;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* From https://css.glass */
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   resize: none;
   font-size: 1em;
   line-height: 1.5;
@@ -123,8 +138,17 @@ body {
 .urlInput {
   margin-top: 10px;
   padding: 10px;
+  /* From https://css.glass */
+  background: rgba(116, 178, 220, 0.33);
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(32, 34, 30, 0.3);
   width: 100%;
   max-width: 300px;
+  color: #fff;
+  outline: none;
   font-size: 16px;
 }
 
